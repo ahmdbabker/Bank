@@ -1,0 +1,613 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+    direction: rtl;
+    
+}
+
+.one 
+{
+    background-color: rgb(207, 41, 75);
+    color:white;
+    padding:10px
+}
+
+.one .container
+{
+    width:90%;
+    margin:auto
+}
+
+.one .login-out span
+{
+    font-size:18px;
+    font-weight: bold;
+}
+
+.one .login-out .spacing
+{
+    font-weight: bold;
+    font-size:22px;
+    padding:0 10px
+}
+
+.one .log-social
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.one .log-social .social
+{
+    line-height: 30px;
+}
+
+.one .log-social .social i
+{
+    padding: 10px 10px;
+    font-size:18px;
+    border-radius: 15px;
+    border:1px solid lightgray
+}
+
+.one .log-social .social i:hover
+{
+    background-color:white;
+    color:gray;
+    transition: 0.3s;
+    cursor:pointer
+}
+
+.navbar
+{
+    background-color: white !important;
+    margin-top:22px;
+    margin:0;
+    padding:1%
+}
+
+.navbar .navbar-brand
+{
+    font-size:35px;
+    font-weight: bold;
+    color: crimson;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item
+{
+    padding:0 10px;
+    font-weight: bold;
+    font-size: 19px;;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item .nav-link
+{
+    color:rgb(177, 176, 176) !important
+}
+
+.navbar-expand-lg .navbar-nav .nav-item .nav-link:hover
+{
+    color:gray !important;
+}
+
+
+.third
+{
+    margin-top:15px;
+    
+}
+
+.third .taking-all
+{
+    display:flex;
+    text-align: right;
+    margin:0 10px;
+    width:100% !important;
+    justify-content: space-between;
+}
+
+.third .right-side
+{
+    width:50%;
+    margin-left:10px
+}
+
+.third .left-side
+{
+    width:50%;
+    margin-right:10px
+}
+
+.third #carouselExampleCaptions
+{
+    width:100%;
+    box-shadow: 4px 4px 4px 4px gray;
+}
+.third #carouselExampleCaptions .carousel-item
+{
+    width:100%;
+    max-height: 290px;
+}
+.third .carousel-item 
+{
+    transition: 0.2s;
+}
+
+.third #carouselExampleCaptions .carousel-indicators
+{
+    display: none;
+}
+
+.third #carouselExampleCaptions .carousel-inner
+{
+    position: relative;
+}
+.third #carouselExampleCaptions .carousel-item .carousel-caption
+{
+    position: absolute;
+    top:73%;
+    background-color:rgba(0,0,0,0.7);
+    height:110px;
+    width:100%;
+    right:0px
+}
+
+.third .matches
+{
+    margin-top:20px
+}
+
+.third .matches .linee
+{
+    position: absolute;
+    width:5px;
+    height: 35px;
+    background-color: crimson;
+}
+
+.third .matches .uni
+{
+    padding-right:25px;
+    font-size:28px;
+    font-weight:bold
+}
+
+.third .matches .arrow
+{
+    margin-right:10px;
+    font-size:30px;
+    color:gray
+}
+
+.third .matches .all-matches
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:15px;
+}
+
+.third .matches .all-matches .match
+{
+    width:50%;
+    padding: 0 5px
+}
+
+.third .matches .all-matches .match .titmath
+{
+    font-weight: bold;
+    margin-right:10px;
+    font-size:19px;
+    color:crimson
+}
+
+.third .matches .all-matches .match img
+{
+    width:100%;
+    height:170px
+}
+
+.third .left-side .left-title .line
+{
+    position: absolute;
+    background-color: crimson;
+    width:5px;
+    height:38px
+}
+.third .left-side .left-title .today
+{
+    font-size:28px;
+    font-weight: bold;
+    padding-right:25px
+}
+
+.third .left-side .left-title .arrow
+{
+    margin-right:10px;
+    font-size:30px;
+    color:gray
+}
+
+.third .left-news
+{
+    margin-top:10px
+}
+.third .left-news .left-pho-para
+{
+    display: flex;
+}
+
+.third .left-news .left-pho-para .phoro
+{
+    width:50%;
+}
+
+.third .left-news .left-pho-para .phoro img
+{
+    width:100%
+}
+
+.third .left-news .left-pho-para .para
+{
+    width:50%;
+    margin-right: 4px;
+}
+
+.third .left-news .left-pho-para .para span
+{
+    font-weight: bold;
+    font-size: 20px;
+    color:crimson;
+    text-align: center;
+}
+
+.third .left-side .adver
+{
+    background-color:gray;
+    text-align: center;
+    width:100%;
+    height:250px;
+    position: relative;
+    opacity: 0.5;
+    margin-bottom: 15px;
+}
+
+.third .left-side .adver h2
+{
+    color:white;
+    position: absolute;
+    top:40%;
+    right:24%;
+    font-size:45px;
+}
+
+.third .left-side .breaking
+{
+    background-color: rgb(180, 36, 65);
+    color:white;
+    padding:35px
+}
+
+.third .left-side .breaking input
+{
+    width:65%;
+    padding:7px;
+    border-radius: 10px;
+    border:1px solid white
+}
+
+.third .left-side .breaking .join
+{
+    margin-right:15px;
+    padding:7px;
+    border:none;
+    border:1px solid gray;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.all-leagues
+{
+    margin-top:15px;
+    text-align:right;
+    padding-right:3%;
+    padding-left:3%;
+}
+
+.all-leagues .league .linee
+{
+    position: absolute;
+    width:5px;
+    height: 35px;
+    background-color: crimson;   
+}
+
+.all-leagues .league .leaguee
+{
+    font-size:28px;
+    font-weight:bold;
+    padding-right: 25px;
+}
+
+.all-leagues .pre-league
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.all-leagues .pre-league .matc
+{
+    width:33%;
+    padding:0 1%
+}
+
+.all-leagues .pre-league .matc img
+{
+    width:100%;
+    box-shadow: 3px 2px 3px 2px gray;
+}
+
+.all-leagues .pre-league .matc .big-tit
+{
+    color:crimson;
+    font-weight: bold;
+    font-size:21px
+}
+
+.all-leagues .pre-league .matc p
+{
+    font-weight: bold;
+}
+
+.all-leagues .buttonn
+{
+    text-align: center;
+    margin-top:10px
+}
+
+.all-leagues .buttonn button
+{
+    padding:10px;
+    width:10%;
+    font-weight: bold;
+    border:1px solid gray;
+    border-radius: 10px;
+}
+
+.all-leagues .buttonn button:hover
+{
+    background-color:white;
+    color:black;
+    transition: 0.5s;
+}
+
+.last-section
+{
+    background-color: rgb(209, 34, 69);
+    color:white;
+    padding-right:3%;
+    padding-left:3%;
+    text-align: right;
+    margin-top:30px
+}
+
+.last-section .all-last
+{
+    display: flex;
+    justify-content: space-between;
+    padding:19px
+}
+
+.last-section .all-last .last
+{
+    width:25%;
+}
+
+.last-section .all-last .last ul
+{
+    list-style-type: none;
+}
+
+.last-section .all-last .last ul .big
+{
+    font-size:25px;
+    font-weight: bold;
+}
+
+.last-section .all-last .last ul li
+{
+    padding:7px 0
+}
+
+.last-section .all-last .last .breaking
+{
+    background-color: rgb(180, 36, 65);
+    color:white;
+    padding:35px
+}
+
+.last-section .all-last .last .breaking input
+{
+    width:65%;
+    padding:7px;
+    border-radius: 10px;
+    border:1px solid white
+}
+
+.last-section .all-last .last .breaking .join
+{
+    margin-right:15px;
+    padding:7px;
+    border:none;
+    border:1px solid gray;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+
+/*
+mobiles
+*/
+
+@media screen and (max-width:600px)
+{
+    *
+    {
+        overflow-x: hidden;
+    }
+    .one .container
+{
+    width:100%;
+}
+.container
+{
+    padding-right: 0;
+}
+    .one .login-out span
+{
+    font-size:17px;
+    font-weight: bold;
+}
+    .one .log-social .social i
+{
+    display: none;
+}
+    .one .login-out .spacing
+{
+    font-weight: bold;
+    font-size:22px;
+    padding:0px
+}
+
+.navbar .navbar-brand
+{
+    font-size:30px;
+    font-weight: bold;
+    color: crimson;
+}
+
+.third .taking-all
+{
+    display:block;
+    text-align: right;
+    width:100% !important;
+}
+
+.third .right-side
+{
+    width:100%;
+}
+
+.third .left-side
+{
+    width:100%;
+}
+
+.third .matches .all-matches
+{
+    display: block;
+    margin-top:10px
+}
+
+.third .matches .all-matches .match
+{
+    width:100%;
+    padding: 0 5px
+}
+
+.third .left-news .left-pho-para
+{
+    display: block;
+}
+
+.third .left-news .left-pho-para .phoro
+{
+    width:100%;
+    margin:0;
+    padding: 0;
+}
+
+.third .left-news .left-pho-para .phoro img
+{
+    width:100%;
+    margin: 0;
+    padding: 0;
+}
+
+.third .left-news .left-pho-para .para
+{
+    width:100%;
+    margin:0;
+    padding: 0;
+}
+
+.third .left-side .adver
+{
+    width:100%;
+    height:180px;
+}
+
+.third .left-side .adver h2
+{
+    right:18px
+}
+
+.all-leagues .pre-league
+{
+    display: block;
+}
+
+.all-leagues .pre-league .matc
+{
+    width:100%;
+    padding:0;
+}
+
+.all-leagues .pre-league .matc img
+{
+    margin-bottom: 10px;
+}
+
+.all-leagues .buttonn
+{
+    text-align: center;
+    margin-top:10px
+}
+
+.all-leagues .buttonn button
+{
+    padding:7px;
+    width:40%;
+    font-weight: bold;
+    border:1px solid gray;
+    border-radius: 10px;
+}
+
+
+
+}
+
+
+@media screen and (max-width:800px)
+{
+    .one .container
+{
+    width:100%;
+}
+
+.one .login-out span
+{
+    font-size:15px;
+    font-weight: bold;
+}
+
+    .one .login-out .spacing
+{
+    font-weight: bold;
+    font-size:22px;
+    padding:0px
+}
+
+}
